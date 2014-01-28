@@ -1,0 +1,236 @@
+2013-12-10 23:07:29 Error: [MissingControllerException] Controller class ItemController could not be found.
+Exception Attributes: array (
+  'class' => 'ItemController',
+  'plugin' => NULL,
+)
+Request URL: /item
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-10 23:07:33 Error: [MissingControllerException] Controller class ItemsController could not be found.
+Exception Attributes: array (
+  'class' => 'ItemsController',
+  'plugin' => NULL,
+)
+Request URL: /items
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-10 23:07:38 Error: [MissingControllerException] Controller class ItemController could not be found.
+Exception Attributes: array (
+  'class' => 'ItemController',
+  'plugin' => NULL,
+)
+Request URL: /item
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-10 23:07:41 Error: [MissingControllerException] Controller class ItemController could not be found.
+Exception Attributes: array (
+  'class' => 'ItemController',
+  'plugin' => NULL,
+)
+Request URL: /item/index
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-10 23:08:41 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/ecommerce/cakephp/app/View/Item/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/MAMP/htdocs/ecommerce/cakephp/app/View/Item/index.ctp',
+)
+Request URL: /item/index
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ItemController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-12-10 23:29:03 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/ecommerce/cakephp/app/View/Item/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/MAMP/htdocs/ecommerce/cakephp/app/View/Item/add.ctp',
+)
+Request URL: /item/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ItemController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-12-10 23:35:18 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/ecommerce/cakephp/app/View/Item/edit.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/MAMP/htdocs/ecommerce/cakephp/app/View/Item/edit.ctp',
+)
+Request URL: /item/edit/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ItemController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-12-10 23:45:12 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /item/delete/1
+Stack Trace:
+#0 [internal function]: ItemController->delete('1')
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ItemController), Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ItemController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-12-10 23:45:16 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /item/delete/1
+Stack Trace:
+#0 [internal function]: ItemController->delete('1')
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ItemController), Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ItemController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-12-10 23:46:01 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /item/delete/1
+Stack Trace:
+#0 [internal function]: ItemController->delete('1')
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ItemController), Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ItemController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-12-10 23:46:06 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /item/delete/1
+Stack Trace:
+#0 [internal function]: ItemController->delete('1')
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ItemController), Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ItemController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-12-18 12:58:32 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-18 12:58:36 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/admin
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-18 12:58:39 Error: [MissingControllerException] Controller class ArticleController could not be found.
+Exception Attributes: array (
+  'class' => 'ArticleController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/article
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-18 13:14:53 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/ecommerce/cakephp/app/View/Admin/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/MAMP/htdocs/ecommerce/cakephp/app/View/Admin/index.ctp',
+)
+Request URL: /admin
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-12-18 13:14:59 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/ecommerce/cakephp/app/View/Admin/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/MAMP/htdocs/ecommerce/cakephp/app/View/Admin/index.ctp',
+)
+Request URL: /admin
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-12-18 13:15:00 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/ecommerce/cakephp/app/View/Admin/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/MAMP/htdocs/ecommerce/cakephp/app/View/Admin/index.ctp',
+)
+Request URL: /admin
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-12-18 13:24:20 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/ecommerce/cakephp/app/View/Item/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/MAMP/htdocs/ecommerce/cakephp/app/View/Item/add.ctp',
+)
+Request URL: /item/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ItemController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-01-28 16:58:38 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[42000] [1049] Unknown database \'e-commerce\'',
+  'enabled' => true,
+)
+Request URL: /item
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(3472): ConnectionManager::getDataSource('default')
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(1126): Model->setDataSource('default')
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(3494): Model->setSource('items')
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): Model->getDataSource()
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('all', Array)
+#7 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/ItemController.php(8): Model->find('all')
+#8 [internal function]: ItemController->index()
+#9 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ItemController), Array)
+#10 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ItemController), Object(CakeRequest), Object(CakeResponse))
+#12 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-01-28 16:58:40 Error: [MissingControllerException] Controller class ItemsController could not be found.
+Exception Attributes: array (
+  'class' => 'ItemsController',
+  'plugin' => NULL,
+)
+Request URL: /items
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-28 16:58:44 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[42000] [1049] Unknown database \'e-commerce\'',
+  'enabled' => true,
+)
+Request URL: /item
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(3472): ConnectionManager::getDataSource('default')
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(1126): Model->setDataSource('default')
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(3494): Model->setSource('items')
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): Model->getDataSource()
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('all', Array)
+#7 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/ItemController.php(8): Model->find('all')
+#8 [internal function]: ItemController->index()
+#9 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ItemController), Array)
+#10 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ItemController), Object(CakeRequest), Object(CakeResponse))
+#12 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
