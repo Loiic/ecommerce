@@ -38,7 +38,7 @@ class ItemController extends AppController {
 				$Itemsave = $this->Item->save($this->request->data);
 
 				if($Itemsave) {
-				
+
 					$this->Session->setFlash('Item add !');
 					return $this->redirect(array('action' => 'index'));
 				}
@@ -64,7 +64,16 @@ class ItemController extends AppController {
 
 		if ($this->request->is(array('post', 'put'))) {
 			$this->Item->id = $id;
-			if ($this->Item->save($this->request->data)) {
+
+			move_uploaded_file(
+				$this->request->data['Item']['img']['tmp_name'],
+				WWW_ROOT.'/img/' . $this->request->data['Item']['img']['name']
+				);
+
+			$this->request->data['Item']['img'] = $this->request->data['Item']['img']['name'];
+			$Itemsave = $this->Item->save($this->request->data);
+
+			if ($Itemsave) {
 				$this->Session->setFlash(__('Your Item has been updated.'));
 				return $this->redirect(array('action' => 'index'));
 			}
