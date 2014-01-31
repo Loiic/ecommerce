@@ -2,7 +2,8 @@
 	<h1>Add Item</h1>
 	<div class="col-md-12">
 		<?php
-		echo $this->Form->create('Item');
+		echo $this->Form->create('Item' , array(
+			'type' => 'file'));
 		?>
 		<div class="row">
 			<div class="col-md-4">
@@ -20,6 +21,11 @@
 						'type' => 'Select',
 						'options' => array('1' ,'2'),
 					)); ?>
+				</div>
+				<div class="form-group">
+					<?php 
+						echo $this->Form->file('Item.img');
+					 ?>
 				</div>
 			</div>
 			<div class="col-md-6">

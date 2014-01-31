@@ -22,14 +22,32 @@ class ItemController extends AppController {
 	}
 
 	public function add () {
+
 		if($this->request->is('post')) {
+
 			$this->Item->create();
-			if($this->Item->save($this->request->data)) {
-				$this->Session->setFlash('Item add !');
-				return $this->redirect(array('action' => 'index'));
+
+			if(is_uploaded_file($this->request->data['Item']['img']['tmp_name'])) {
+
+				move_uploaded_file(
+					$this->request->data['Item']['img']['tmp_name'],
+					WWW_ROOT.'/img/' . $this->request->data['Item']['img']['name']
+					);
+
+				$this->request->data['Item']['img'] = $this->request->data['Item']['img']['name'];
+				$Itemsave = $this->Item->save($this->request->data);
+
+				if($Itemsave) {
+				
+					$this->Session->setFlash('Item add !');
+					return $this->redirect(array('action' => 'index'));
+				}
+				else {	
+					$this->Session->setFlash('Item not add !');
+				}
 			}
 			else {
-				$this->Session->setFlash('Item not add !');
+				$this->Session->setFlash('You must upload an image !');
 			}
 		}
 	}
