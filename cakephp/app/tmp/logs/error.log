@@ -547,3 +547,33 @@ Stack Trace:
 #8 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ItemController), Object(CakeRequest), Object(CakeResponse))
 #9 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #10 {main}
+2014-01-31 10:33:42 Error: [MissingTableException] Table categories for model Category was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'categories',
+  'class' => 'Category',
+  'ds' => 'default',
+)
+Request URL: /category
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(3494): Model->setSource('categories')
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): Model->getDataSource()
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('all', Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(5): Model->find('all')
+#4 [internal function]: CategoryController->index()
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#8 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-01-31 10:34:54 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/ecommerce/cakephp/app/View/Category/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/MAMP/htdocs/ecommerce/cakephp/app/View/Category/index.ctp',
+)
+Request URL: /category
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

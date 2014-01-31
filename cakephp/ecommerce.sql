@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Client: localhost
--- Généré le: Ven 31 Janvier 2014 à 10:31
+-- Généré le: Ven 31 Janvier 2014 à 10:34
 -- Version du serveur: 5.5.33
 -- Version de PHP: 5.5.3
 
@@ -33,10 +33,10 @@ CREATE TABLE `adresses` (
 -- --------------------------------------------------------
 
 --
--- Structure de la table `category`
+-- Structure de la table `categories`
 --
 
-CREATE TABLE `category` (
+CREATE TABLE `categories` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `id_parent` int(11) DEFAULT NULL,
   `name` text NOT NULL,

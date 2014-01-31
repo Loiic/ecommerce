@@ -12,7 +12,7 @@
                 <a href="/item" class="btn btn-danger btn-lg" role="button"><span class="glyphicon glyphicon-list-alt"></span> <br/>Items</a>
                 <a href="#" class="btn btn-warning btn-lg" role="button"><span class="glyphicon glyphicon-shopping-cart"></span> <br/> Orders</a>
                 <a href="#" class="btn btn-primary btn-lg" role="button"><span class="glyphicon glyphicon-signal"></span> <br/>Reports</a>
-                <a href="#" class="btn btn-primary btn-lg" role="button"><span class="glyphicon glyphicon-comment"></span> <br/>Contact</a>
+                <a href="/category" class="btn btn-primary btn-lg" role="button"><span class="glyphicon glyphicon-th-large"></span> <br/>Category</a>
               </div>
               <div class="col-xs-6 col-md-6">
                 <a href="#" class="btn btn-success btn-lg" role="button"><span class="glyphicon glyphicon-user"></span> <br/>Users</a>
