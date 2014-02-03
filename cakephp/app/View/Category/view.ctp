@@ -5,10 +5,16 @@
 		<th>Price</th>
 		<th>Category</th>
 	</tr>
-	<tr>
+	
 		<?php foreach($category as $categorys) {
-			echo '<td>' . h($category['Category']['Item']['id']) . '</td>' ;
-			echo '<td>' . h($category)['Category']['Item']['name'] . '</td>';
+			?><tr><pre><?php
+			//var_dump($categorys);
+			echo $categorys['Item']['name'];
+			// echo '<td>' . h($categorys['Category']['id']) . '</td>' ;
+			// echo '<td>' . h($categorys['Item']['name']) . '</td>' ;
+			// echo '<td>' . h($categorys['Item']['price']) . '</td>' ;
+			// echo '<td>' . h($categorys)['Category']['name'] . '</td>';
+		?></pre></tr><?php
 		} ?>
-	</tr>
+	
 </table>

@@ -11,7 +11,10 @@
 			throw new NotFoundException(__('Invalid Category pd'));
 		}
 
-		$category = $this->Category->Items->findById($id);
+		$category = $this->Category->findById($id, array(
+			'contain' => array('Item'),
+			'conditions' => array('Category.id')
+			));
 		if (!$category) {
 			throw new NotFoundException(__('Invalid Category de merde'));
 		}
