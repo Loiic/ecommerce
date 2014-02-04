@@ -6,15 +6,19 @@
 		<th>Category</th>
 	</tr>
 	
-		<?php foreach($category as $categorys) {
-			?><tr><pre><?php
-			//var_dump($categorys);
-			echo $categorys['Item']['name'];
-			// echo '<td>' . h($categorys['Category']['id']) . '</td>' ;
-			// echo '<td>' . h($categorys['Item']['name']) . '</td>' ;
-			// echo '<td>' . h($categorys['Item']['price']) . '</td>' ;
-			// echo '<td>' . h($categorys)['Category']['name'] . '</td>';
-		?></pre></tr><?php
-		} ?>
-	
+	<?php foreach($category as $categorys) { ?>
+
+		<?php foreach ($categorys['Item'] as $item): ?>
+		<tr>
+		<td><?php echo $item['id'] ?></td>
+		<td><?php echo $item['name'] ?></td>
+		<td><?php echo $item['price'] ?></td>
+		<td><?php echo $categorys['Category']['name'] ?></td>
+		</tr>
+	<?php endforeach ?>
+
+<?php
+} 
+?>
+
 </table>

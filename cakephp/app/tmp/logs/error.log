@@ -1321,3 +1321,1207 @@ Stack Trace:
 #3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2014-02-03 11:25:04 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Category.' in 'field list'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT DISTINCT...', false)
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): DboSource->read(Object(Category), Array)
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('first', Array)
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(800): DboSource->query('findById', Array, Object(Category))
+#8 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Model->__call('findById', Array)
+#9 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Category->findById('1', Array)
+#10 [internal function]: CategoryController->view('1')
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#12 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#14 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-02-03 12:11:50 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Category.' in 'field list'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT DISTINCT...', false)
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): DboSource->read(Object(Category), Array)
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('first', Array)
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(800): DboSource->query('findById', Array, Object(Category))
+#8 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Model->__call('findById', Array)
+#9 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Category->findById('1', Array)
+#10 [internal function]: CategoryController->view('1')
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#12 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#14 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-02-03 12:12:56 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Category.' in 'field list'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT DISTINCT...', false)
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): DboSource->read(Object(Category), Array)
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('first', Array)
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(800): DboSource->query('findById', Array, Object(Category))
+#8 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Model->__call('findById', Array)
+#9 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Category->findById('1', Array)
+#10 [internal function]: CategoryController->view('1')
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#12 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#14 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-02-03 12:13:40 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Category.' in 'field list'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT DISTINCT...', false)
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): DboSource->read(Object(Category), Array)
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('first', Array)
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(800): DboSource->query('findById', Array, Object(Category))
+#8 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Model->__call('findById', Array)
+#9 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Category->findById('1', Array)
+#10 [internal function]: CategoryController->view('1')
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#12 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#14 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-02-03 12:13:47 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Category.' in 'field list'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT DISTINCT...', false)
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): DboSource->read(Object(Category), Array)
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('first', Array)
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(800): DboSource->query('findById', Array, Object(Category))
+#8 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Model->__call('findById', Array)
+#9 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Category->findById('1', Array)
+#10 [internal function]: CategoryController->view('1')
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#12 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#14 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-02-03 12:14:42 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Category.' in 'field list'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT DISTINCT...', false)
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): DboSource->read(Object(Category), Array)
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('first', Array)
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(800): DboSource->query('findById', Array, Object(Category))
+#8 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Model->__call('findById', Array)
+#9 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Category->findById('1', Array)
+#10 [internal function]: CategoryController->view('1')
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#12 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#14 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-02-03 12:14:52 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Category.' in 'field list'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT DISTINCT...', false)
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): DboSource->read(Object(Category), Array)
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('first', Array)
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(800): DboSource->query('findById', Array, Object(Category))
+#8 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Model->__call('findById', Array)
+#9 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Category->findById('1', Array)
+#10 [internal function]: CategoryController->view('1')
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#12 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#14 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-02-03 12:15:02 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Category.' in 'field list'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT DISTINCT...', false)
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): DboSource->read(Object(Category), Array)
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('first', Array)
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(800): DboSource->query('findById', Array, Object(Category))
+#8 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Model->__call('findById', Array)
+#9 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Category->findById('1', Array)
+#10 [internal function]: CategoryController->view('1')
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#12 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#14 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-02-03 12:15:05 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Category.' in 'field list'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT DISTINCT...', false)
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): DboSource->read(Object(Category), Array)
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('first', Array)
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(800): DboSource->query('findById', Array, Object(Category))
+#8 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Model->__call('findById', Array)
+#9 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Category->findById('1', Array)
+#10 [internal function]: CategoryController->view('1')
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#12 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#14 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-02-03 12:15:07 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Category.' in 'field list'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT DISTINCT...', false)
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): DboSource->read(Object(Category), Array)
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('first', Array)
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(800): DboSource->query('findById', Array, Object(Category))
+#8 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Model->__call('findById', Array)
+#9 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Category->findById('1', Array)
+#10 [internal function]: CategoryController->view('1')
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#12 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#14 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-02-03 12:15:08 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Category.' in 'field list'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT DISTINCT...', false)
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): DboSource->read(Object(Category), Array)
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('first', Array)
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(800): DboSource->query('findById', Array, Object(Category))
+#8 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Model->__call('findById', Array)
+#9 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Category->findById('1', Array)
+#10 [internal function]: CategoryController->view('1')
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#12 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#14 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-02-03 12:15:09 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Category.' in 'field list'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT DISTINCT...', false)
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): DboSource->read(Object(Category), Array)
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('first', Array)
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(800): DboSource->query('findById', Array, Object(Category))
+#8 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Model->__call('findById', Array)
+#9 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Category->findById('1', Array)
+#10 [internal function]: CategoryController->view('1')
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#12 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#14 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-02-03 12:15:09 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Category.' in 'field list'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT DISTINCT...', false)
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): DboSource->read(Object(Category), Array)
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('first', Array)
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(800): DboSource->query('findById', Array, Object(Category))
+#8 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Model->__call('findById', Array)
+#9 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Category->findById('1', Array)
+#10 [internal function]: CategoryController->view('1')
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#12 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#14 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-02-03 12:15:10 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Category.' in 'field list'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT DISTINCT...', false)
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): DboSource->read(Object(Category), Array)
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('first', Array)
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(800): DboSource->query('findById', Array, Object(Category))
+#8 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Model->__call('findById', Array)
+#9 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Category->findById('1', Array)
+#10 [internal function]: CategoryController->view('1')
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#12 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#14 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-02-03 12:15:11 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Category.' in 'field list'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT DISTINCT...', false)
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): DboSource->read(Object(Category), Array)
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('first', Array)
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(800): DboSource->query('findById', Array, Object(Category))
+#8 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Model->__call('findById', Array)
+#9 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Category->findById('1', Array)
+#10 [internal function]: CategoryController->view('1')
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#12 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#14 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-02-03 12:15:11 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Category.' in 'field list'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT DISTINCT...', false)
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): DboSource->read(Object(Category), Array)
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('first', Array)
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(800): DboSource->query('findById', Array, Object(Category))
+#8 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Model->__call('findById', Array)
+#9 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Category->findById('1', Array)
+#10 [internal function]: CategoryController->view('1')
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#12 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#14 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-02-03 12:15:11 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Category.' in 'field list'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT DISTINCT...', false)
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): DboSource->read(Object(Category), Array)
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('first', Array)
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(800): DboSource->query('findById', Array, Object(Category))
+#8 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Model->__call('findById', Array)
+#9 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Category->findById('1', Array)
+#10 [internal function]: CategoryController->view('1')
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#12 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#14 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-02-03 12:15:12 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Category.' in 'field list'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT DISTINCT...', false)
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): DboSource->read(Object(Category), Array)
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('first', Array)
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(800): DboSource->query('findById', Array, Object(Category))
+#8 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Model->__call('findById', Array)
+#9 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Category->findById('1', Array)
+#10 [internal function]: CategoryController->view('1')
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#12 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#14 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-02-03 12:15:12 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Category.' in 'field list'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT DISTINCT...', false)
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): DboSource->read(Object(Category), Array)
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('first', Array)
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(800): DboSource->query('findById', Array, Object(Category))
+#8 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Model->__call('findById', Array)
+#9 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Category->findById('1', Array)
+#10 [internal function]: CategoryController->view('1')
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#12 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#14 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-02-03 12:15:12 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Category.' in 'field list'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT DISTINCT...', false)
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): DboSource->read(Object(Category), Array)
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('first', Array)
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(800): DboSource->query('findById', Array, Object(Category))
+#8 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Model->__call('findById', Array)
+#9 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Category->findById('1', Array)
+#10 [internal function]: CategoryController->view('1')
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#12 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#14 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-02-03 12:15:12 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Category.' in 'field list'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT DISTINCT...', false)
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): DboSource->read(Object(Category), Array)
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('first', Array)
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(800): DboSource->query('findById', Array, Object(Category))
+#8 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Model->__call('findById', Array)
+#9 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Category->findById('1', Array)
+#10 [internal function]: CategoryController->view('1')
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#12 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#14 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-02-03 12:15:12 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Category.' in 'field list'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT DISTINCT...', false)
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): DboSource->read(Object(Category), Array)
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('first', Array)
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(800): DboSource->query('findById', Array, Object(Category))
+#8 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Model->__call('findById', Array)
+#9 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Category->findById('1', Array)
+#10 [internal function]: CategoryController->view('1')
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#12 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#14 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-02-03 12:15:12 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Category.' in 'field list'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT DISTINCT...', false)
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): DboSource->read(Object(Category), Array)
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('first', Array)
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(800): DboSource->query('findById', Array, Object(Category))
+#8 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Model->__call('findById', Array)
+#9 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Category->findById('1', Array)
+#10 [internal function]: CategoryController->view('1')
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#12 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#14 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-02-03 12:15:41 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Category.' in 'field list'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT DISTINCT...', false)
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): DboSource->read(Object(Category), Array)
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('first', Array)
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(800): DboSource->query('findById', Array, Object(Category))
+#8 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Model->__call('findById', Array)
+#9 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Category->findById('1', Array)
+#10 [internal function]: CategoryController->view('1')
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#12 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#14 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-02-03 12:15:54 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Category.' in 'field list'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT DISTINCT...', false)
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): DboSource->read(Object(Category), Array)
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('first', Array)
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(800): DboSource->query('findById', Array, Object(Category))
+#8 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Model->__call('findById', Array)
+#9 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Category->findById('1', Array)
+#10 [internal function]: CategoryController->view('1')
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#12 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#14 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-02-03 12:15:55 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Category.' in 'field list'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT DISTINCT...', false)
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): DboSource->read(Object(Category), Array)
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('first', Array)
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(800): DboSource->query('findById', Array, Object(Category))
+#8 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Model->__call('findById', Array)
+#9 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Category->findById('1', Array)
+#10 [internal function]: CategoryController->view('1')
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#12 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#14 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-02-03 12:16:13 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Category.' in 'field list'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT DISTINCT...', false)
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): DboSource->read(Object(Category), Array)
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('first', Array)
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(800): DboSource->query('findById', Array, Object(Category))
+#8 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Model->__call('findById', Array)
+#9 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Category->findById('1', Array)
+#10 [internal function]: CategoryController->view('1')
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#12 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#14 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-02-03 12:16:24 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Category.' in 'field list'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT DISTINCT...', false)
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): DboSource->read(Object(Category), Array)
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('first', Array)
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(800): DboSource->query('findById', Array, Object(Category))
+#8 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Model->__call('findById', Array)
+#9 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Category->findById('1', Array)
+#10 [internal function]: CategoryController->view('1')
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#12 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#14 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-02-03 12:16:58 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Category.' in 'field list'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT DISTINCT...', false)
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): DboSource->read(Object(Category), Array)
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('first', Array)
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(800): DboSource->query('findById', Array, Object(Category))
+#8 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(16): Model->__call('findById', Array)
+#9 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(16): Category->findById('1', Array)
+#10 [internal function]: CategoryController->view('1')
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#12 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#14 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-02-03 12:16:59 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Category.' in 'field list'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT DISTINCT...', false)
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): DboSource->read(Object(Category), Array)
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('first', Array)
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(800): DboSource->query('findById', Array, Object(Category))
+#8 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(16): Model->__call('findById', Array)
+#9 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(16): Category->findById('1', Array)
+#10 [internal function]: CategoryController->view('1')
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#12 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#14 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-02-03 12:17:50 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Category.' in 'field list'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT DISTINCT...', false)
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): DboSource->read(Object(AppModel), Array)
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('first', Array)
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(800): DboSource->query('findById', Array, Object(AppModel))
+#8 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(16): Model->__call('findById', Array)
+#9 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(16): AppModel->findById('1', Array)
+#10 [internal function]: CategoryController->view('1')
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#12 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#14 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-02-03 12:18:42 Error: Fatal Error (1): Call to a member function findById() on a non-object in [/Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php, line 14]
+2014-02-03 12:18:42 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 14, Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 14, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-03 12:19:51 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Items.id_category' in 'where clause'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Categor...', Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `Categor...', Array, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT `Categor...', false)
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): DboSource->read(Object(Category), Array)
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('1', Array)
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Model->find('1', Array)
+#7 [internal function]: CategoryController->view('1')
+#8 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#9 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-02-03 12:20:06 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Item.id_category' in 'where clause'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Categor...', Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `Categor...', Array, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT `Categor...', false)
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): DboSource->read(Object(Category), Array)
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('1', Array)
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Model->find('1', Array)
+#7 [internal function]: CategoryController->view('1')
+#8 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#9 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-02-03 12:20:07 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Item.id_category' in 'where clause'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Categor...', Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `Categor...', Array, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT `Categor...', false)
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): DboSource->read(Object(Category), Array)
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('1', Array)
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Model->find('1', Array)
+#7 [internal function]: CategoryController->view('1')
+#8 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#9 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-02-03 12:20:10 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_category' in 'where clause'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Categor...', Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `Categor...', Array, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT `Categor...', false)
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): DboSource->read(Object(Category), Array)
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('1', Array)
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Model->find('1', Array)
+#7 [internal function]: CategoryController->view('1')
+#8 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#9 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-02-03 12:20:20 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_category' in 'where clause'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Categor...', Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `Categor...', Array, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT `Categor...', false)
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): DboSource->read(Object(Category), Array)
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('1', Array)
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Model->find('1', Array)
+#7 [internal function]: CategoryController->view('1')
+#8 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#9 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-02-03 12:20:24 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_category' in 'where clause'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Categor...', Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `Categor...', Array, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT `Categor...', false)
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): DboSource->read(Object(Category), Array)
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('1', Array)
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Model->find('1', Array)
+#7 [internal function]: CategoryController->view('1')
+#8 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#9 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-02-03 12:20:42 Error: [NotFoundException] Invalid Category de merde
+Request URL: /category/view/1
+Stack Trace:
+#0 [internal function]: CategoryController->view('1')
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-03 12:20:44 Error: [NotFoundException] Invalid Category de merde
+Request URL: /category/view/1
+Stack Trace:
+#0 [internal function]: CategoryController->view('1')
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-03 12:20:46 Error: [NotFoundException] Invalid Category de merde
+Request URL: /category/view/2
+Stack Trace:
+#0 [internal function]: CategoryController->view('2')
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-03 12:20:58 Error: [NotFoundException] Invalid Category de merde
+Request URL: /category/view/2
+Stack Trace:
+#0 [internal function]: CategoryController->view('2')
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-03 12:20:58 Error: [NotFoundException] Invalid Category de merde
+Request URL: /category/view/2
+Stack Trace:
+#0 [internal function]: CategoryController->view('2')
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-03 12:21:01 Error: [NotFoundException] Invalid Category de merde
+Request URL: /category/view/1
+Stack Trace:
+#0 [internal function]: CategoryController->view('1')
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-03 12:21:05 Error: [NotFoundException] Invalid Category de merde
+Request URL: /category/view/1
+Stack Trace:
+#0 [internal function]: CategoryController->view('1')
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-03 12:21:08 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_category' in 'where clause'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Categor...', Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `Categor...', Array, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT `Categor...', false)
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): DboSource->read(Object(Category), Array)
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('1', Array)
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(17): Model->find('1', Array)
+#7 [internal function]: CategoryController->view('1')
+#8 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#9 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-02-03 12:21:31 Error: [NotFoundException] Invalid Category de merde
+Request URL: /category/view/1
+Stack Trace:
+#0 [internal function]: CategoryController->view('1')
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-03 12:21:47 Error: [NotFoundException] Invalid Category de merde
+Request URL: /category/view/1
+Stack Trace:
+#0 [internal function]: CategoryController->view('1')
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-03 12:22:19 Error: [NotFoundException] Invalid Category de merde
+Request URL: /category/view/1
+Stack Trace:
+#0 [internal function]: CategoryController->view('1')
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-03 12:22:39 Error: [NotFoundException] Invalid Category de merde
+Request URL: /category/view/1
+Stack Trace:
+#0 [internal function]: CategoryController->view('1')
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-03 12:22:41 Error: [NotFoundException] Invalid Category de merde
+Request URL: /category/view/1
+Stack Trace:
+#0 [internal function]: CategoryController->view('1')
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-03 12:24:03 Error: [NotFoundException] Invalid Category de merde
+Request URL: /category/view/1
+Stack Trace:
+#0 [internal function]: CategoryController->view('1')
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-03 12:24:04 Error: [NotFoundException] Invalid Category de merde
+Request URL: /category/view/1
+Stack Trace:
+#0 [internal function]: CategoryController->view('1')
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-03 12:25:18 Error: [NotFoundException] Invalid Category de merde
+Request URL: /category/view/1
+Stack Trace:
+#0 [internal function]: CategoryController->view('1')
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-03 12:27:24 Error: [NotFoundException] Invalid Category pd
+Request URL: /category/view/1
+Stack Trace:
+#0 [internal function]: CategoryController->view('1')
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-03 12:27:43 Error: [NotFoundException] Invalid Category de merde
+Request URL: /category/view/1
+Stack Trace:
+#0 [internal function]: CategoryController->view('1')
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-03 12:28:15 Error: [NotFoundException] Invalid Category de merde
+Request URL: /category/view/1
+Stack Trace:
+#0 [internal function]: CategoryController->view('1')
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-03 12:28:40 Error: Fatal Error (4): syntax error, unexpected ')' in [/Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php, line 16]
+2014-02-03 12:28:40 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 16, Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 16, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-03 12:30:46 Error: [NotFoundException] Invalid Category de merde
+Request URL: /category/view/1
+Stack Trace:
+#0 [internal function]: CategoryController->view('1')
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-03 12:30:58 Error: [NotFoundException] Invalid Category de merde
+Request URL: /category/view/1
+Stack Trace:
+#0 [internal function]: CategoryController->view('1')
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-03 12:30:59 Error: [NotFoundException] Invalid Category de merde
+Request URL: /category/view/1
+Stack Trace:
+#0 [internal function]: CategoryController->view('1')
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-03 12:31:11 Error: [NotFoundException] Invalid Category de merde
+Request URL: /category/view/1
+Stack Trace:
+#0 [internal function]: CategoryController->view('1')
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-03 12:34:05 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'Category'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Categor...', Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `Categor...', Array, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT `Categor...', false)
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): DboSource->read(Object(Category), Array)
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(32): Model->find('all', Array)
+#7 [internal function]: CategoryController->view('1')
+#8 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#9 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-02-03 12:34:37 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'e-commerce.item' doesn't exist
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Categor...', Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `Categor...', Array, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT `Categor...', false)
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): DboSource->read(Object(Category), Array)
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(32): Model->find('all', Array)
+#7 [internal function]: CategoryController->view('1')
+#8 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#9 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-02-03 12:35:14 Error: Fatal Error (4): syntax error, unexpected '$id' (T_VARIABLE), expecting ')' in [/Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php, line 21]
+2014-02-03 12:35:14 Error: [FatalErrorException] syntax error, unexpected '$id' (T_VARIABLE), expecting ')'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 21, Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 21, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-03 12:35:45 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'Category'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Categor...', Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `Categor...', Array, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT `Categor...', false)
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): DboSource->read(Object(Category), Array)
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(32): Model->find('all', Array)
+#7 [internal function]: CategoryController->view('1')
+#8 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#9 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-02-03 12:35:52 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'Category'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Categor...', Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `Categor...', Array, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT `Categor...', false)
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): DboSource->read(Object(Category), Array)
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(29): Model->find('all', Array)
+#7 [internal function]: CategoryController->view('1')
+#8 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#9 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-02-03 12:37:42 Error: [NotFoundException] Invalid Category de merde
+Request URL: /category/view/1
+Stack Trace:
+#0 [internal function]: CategoryController->view('1')
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-03 12:37:44 Error: [NotFoundException] Invalid Category de merde
+Request URL: /category/view/1
+Stack Trace:
+#0 [internal function]: CategoryController->view('1')
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-03 12:37:58 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Category.' in 'field list'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT DISTINCT...', false)
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): DboSource->read(Object(Category), Array)
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('first', Array)
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(800): DboSource->query('findById', Array, Object(Category))
+#8 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(23): Model->__call('findById', Array)
+#9 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(23): Category->findById('1', Array)
+#10 [internal function]: CategoryController->view('1')
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#12 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#14 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-02-03 12:38:12 Error: [NotFoundException] Invalid Category de merde
+Request URL: /category/view/1
+Stack Trace:
+#0 [internal function]: CategoryController->view('1')
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-03 12:38:18 Error: [NotFoundException] Invalid Category de merde
+Request URL: /category/view/1
+Stack Trace:
+#0 [internal function]: CategoryController->view('1')
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-04 15:13:25 Error: Fatal Error (4): syntax error, unexpected ')' in [/Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php, line 24]
+2014-02-04 15:13:25 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 24, Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 24, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-04 15:16:18 Error: Fatal Error (4): syntax error, unexpected ''conditions'' (T_CONSTANT_ENCAPSED_STRING) in [/Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php, line 26]
+2014-02-04 15:16:18 Error: [FatalErrorException] syntax error, unexpected ''conditions'' (T_CONSTANT_ENCAPSED_STRING)
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 26)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 26, Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 26, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-04 15:16:42 Error: Fatal Error (4): syntax error, unexpected ''conditions'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php, line 25]
+2014-02-04 15:16:42 Error: [FatalErrorException] syntax error, unexpected ''conditions'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 25, Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 25, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-04 15:16:43 Error: Fatal Error (4): syntax error, unexpected ''conditions'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php, line 25]
+2014-02-04 15:16:43 Error: [FatalErrorException] syntax error, unexpected ''conditions'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 25, Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 25, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-04 15:16:44 Error: Fatal Error (4): syntax error, unexpected ''conditions'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php, line 25]
+2014-02-04 15:16:44 Error: [FatalErrorException] syntax error, unexpected ''conditions'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 25, Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 25, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-04 15:17:51 Error: Fatal Error (4): syntax error, unexpected '$hasMany' (T_VARIABLE), expecting function (T_FUNCTION) in [/Applications/MAMP/htdocs/ecommerce/cakephp/app/Model/Category.php, line 4]
+2014-02-04 15:17:51 Error: [FatalErrorException] syntax error, unexpected '$hasMany' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 4, Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 4, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-04 15:17:53 Error: Fatal Error (4): syntax error, unexpected '$hasMany' (T_VARIABLE), expecting function (T_FUNCTION) in [/Applications/MAMP/htdocs/ecommerce/cakephp/app/Model/Category.php, line 4]
+2014-02-04 15:17:53 Error: [FatalErrorException] syntax error, unexpected '$hasMany' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 4, Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 4, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-04 15:17:53 Error: Fatal Error (4): syntax error, unexpected '$hasMany' (T_VARIABLE), expecting function (T_FUNCTION) in [/Applications/MAMP/htdocs/ecommerce/cakephp/app/Model/Category.php, line 4]
+2014-02-04 15:17:53 Error: [FatalErrorException] syntax error, unexpected '$hasMany' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 4, Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 4, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-04 15:18:13 Error: Fatal Error (4): syntax error, unexpected '$hasMany' (T_VARIABLE), expecting function (T_FUNCTION) in [/Applications/MAMP/htdocs/ecommerce/cakephp/app/Model/Category.php, line 4]
+2014-02-04 15:18:13 Error: [FatalErrorException] syntax error, unexpected '$hasMany' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 4, Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 4, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-04 15:18:14 Error: Fatal Error (4): syntax error, unexpected '$hasMany' (T_VARIABLE), expecting function (T_FUNCTION) in [/Applications/MAMP/htdocs/ecommerce/cakephp/app/Model/Category.php, line 4]
+2014-02-04 15:18:14 Error: [FatalErrorException] syntax error, unexpected '$hasMany' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 4, Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 4, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-04 15:18:14 Error: Fatal Error (4): syntax error, unexpected '$hasMany' (T_VARIABLE), expecting function (T_FUNCTION) in [/Applications/MAMP/htdocs/ecommerce/cakephp/app/Model/Category.php, line 4]
+2014-02-04 15:18:14 Error: [FatalErrorException] syntax error, unexpected '$hasMany' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 4, Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 4, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-04 15:18:30 Error: Fatal Error (4): syntax error, unexpected '$hasMany' (T_VARIABLE), expecting function (T_FUNCTION) in [/Applications/MAMP/htdocs/ecommerce/cakephp/app/Model/Category.php, line 4]
+2014-02-04 15:18:30 Error: [FatalErrorException] syntax error, unexpected '$hasMany' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 4, Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 4, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-04 15:18:43 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Item.category_id' in 'field list'
+Request URL: /category/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Item`.`...', Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `Item`.`...', Array, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1338): DboSource->fetchAll('SELECT `Item`.`...', false)
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1200): DboSource->fetchAssociated(Object(Category), 'SELECT `Item`.`...', Array)
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1111): DboSource->queryAssociation(Object(Category), Object(Item), 'hasMany', 'Item', Array, Array, true, Array, 0, Array)
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): DboSource->read(Object(Category), Array)
+#7 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('all', Array)
+#8 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/CategoryController.php(28): Model->find('all', Array)
+#9 [internal function]: CategoryController->view('1')
+#10 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#13 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-02-04 15:36:03 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Category.item_id' in 'field list'
+Request URL: /item
+Stack Trace:
+#0 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Categor...', Array)
+#2 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `Categor...', Array, Array)
+#3 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1338): DboSource->fetchAll('SELECT `Categor...', false)
+#4 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1200): DboSource->fetchAssociated(Object(Item), 'SELECT `Categor...', Array)
+#5 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Datasource/DboSource.php(1111): DboSource->queryAssociation(Object(Item), Object(Category), 'hasMany', 'Category', Array, Array, true, Array, 0, Array)
+#6 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2898): DboSource->read(Object(Item), Array)
+#7 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Model/Model.php(2870): Model->_readDataSource('all', Array)
+#8 /Applications/MAMP/htdocs/ecommerce/cakephp/app/Controller/ItemController.php(8): Model->find('all')
+#9 [internal function]: ItemController->index()
+#10 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ItemController), Array)
+#11 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 /Applications/MAMP/htdocs/ecommerce/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ItemController), Object(CakeRequest), Object(CakeResponse))
+#13 /Applications/MAMP/htdocs/ecommerce/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}

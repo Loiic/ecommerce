@@ -17,9 +17,10 @@
 					<?php echo $this->Form->input('stock' , array('class' => 'form-control')); ?>
 				</div>
 				<div class="form-group">
-					<?php echo $this->Form->input('id_category' , array(
+					<?php echo $this->Form->input('category_id' , array(
 						'type' => 'Select',
-						'options' => array('1' ,'2'),
+						'options' => array(1,2,3,4),
+						'empty' => 'Categorie',
 					)); ?>
 				</div>
 				<div class="form-group">

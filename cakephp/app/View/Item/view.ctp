@@ -11,7 +11,7 @@
 	<tr>
 		<h1><td><?php echo h($items['Item']['id']); ?></h1></td>
 
-		<td><p><?php echo $items['Item']['id_category']; ?></p></td>
+		<td><p><?php echo $items['Item']['category_id']; ?></p></td>
 
 		<td><p><?php echo h($items['Item']['name']); ?></p></td>
 
